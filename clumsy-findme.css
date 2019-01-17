@@ -1,0 +1,26 @@
+body {
+	--theme: #BDE0FC;
+	--dark-theme: #6D90AC;
+}
+
+main{
+	max-width: 80vw;
+	max-height: 100vh;
+	margin: auto;
+	overflow: hidden;
+	text-align: center;
+}
+
+.findme a{
+	font-size: 2.5em;
+	color: var(--dark-theme);
+	text-decoration: none;
+}
+
+.findme a>i {
+	margin: 0/*up*/ 0.3em/*right*/ 0.2em/*down*/ 0.3em /*left*/;
+}
+
+.findme a:hover {
+	color: var(--theme);
+}
